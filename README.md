@@ -2,47 +2,45 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ngdechev/football-championship?color=yellow)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/ngdechev/football-championship)
 
-# Проект по Бази от Данни
-## Задание - "Библиотека"
-### Да се проектира и реализира база от данни за БИБЛИОТЕКА, която да съхранява следната информация:
-•	*Книга* – наименование, автор, година на издаване, издателство, жанр; <br>
-•	*Служител* – име, позиция, телефон; <br>
-•	*Читател* – име, телефон; <br>
-•	*Заемане* – книга, читател, служител, дата на заемане, срок. <br>
-### Правила:
-•	Всяка книга може да бъде заета текущо само от един читател;
-•	Всяка книга има един автор и едно издателство.
+# Database project
+## Assignment - "Library"
+### To design and implement a LIBRARY database that will store the following information:
+• 	*Book* – title, author, year of publication, publisher, genre; <br>
+• 	*Employee* – name, position, telephone; <br>
+• 	*Reader* – name, phone number; <br>
+• 	*Borrowing* – book, reader, employee, borrowing date, term. <br>
+### Rules:
+• 	Each book can be currently occupied by only one reader; <br>
+• 	Each book has one author and one publisher.
 
-### Базата от данни трябва да е нормализирана и да позволява:
-1.	**Въвеждане и корекция** на данни. <br>
-2.	**Търсене / заемане** на книги по: автор, ключови думи от наименованието, жанр. <br>
-3.	**Справки** за: <br>
-•	заети книги от читател; <br>
-•	невърнати книги, подредени по дата. <br>
+### The database must be normalized and allow:
+1. 	**Entering and correcting** data. <br>
+2. 	**Search / borrow** books by: author, keywords from the title, genre. <br>
+3. 	**References** for: <br>
+• 	books borrowed by a reader; <br>
+• 	unreturned books, sorted by date. <br>
 
-### Обяснителната записка към проекта трябва да съдържа:
-•	Задание <br>
-•	Модели (Oracle Data Modeler)                     - 6 седмица <br>
-•	Примерни данни                                           - 9 седмица <br>
-•	SQL команди – DDL, DML <br>
-•	Резултати от изпълнението на заявките   - 12 седмица <br>
+### The explanatory note to the project must contain:
+• 	Task <br>
+• 	Models (Oracle Data Modeler) - 6 week <br>
+• 	Sample data - 9 week <br>
+• 	SQL commands - DDL, DML <br>
+• 	Results of the execution of requests - 12 week <br>
 
-## Разработка на проекта
-За изработката на проекта са използвани следните езици за програмиране:
+## Project development
+The following programming languages were used for the development of the project:
 1. Oracle SQL
 
-И следните инструменти:
+And the following tools:
 1. Oracle SQL Developer Data Modeler
 2. Oracle SQL Developer
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
 
-## Модели
-### Релационен модел
-![relation.png](https://i.postimg.cc/D07sJ6yN/relational.png)
+## Models
+### Relational model
+![relational.png](https://i.postimg.cc/D07sJ6yN/relational.png)
 
-### Логически модел
+### Logic model
 ![logical.png](https://i.postimg.cc/TwVg3FGm/logical.png)
-
-
