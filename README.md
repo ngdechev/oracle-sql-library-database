@@ -34,6 +34,7 @@ The following programming languages were used for the development of the project
 And the following tools:
 1. Oracle SQL Developer Data Modeler
 2. Oracle SQL Developer
+<br>
 
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
